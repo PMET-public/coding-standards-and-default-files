@@ -50,6 +50,16 @@ How developers can quickly setup their dev environment, setup debugging, run tes
 
 `.github/workflows/test-workflow.yml` - a Github CI/CD configuration to prove operability and ensure code quality ([ex. #1](https://github.com/PMET-public/action-tmate/blob/master/.github/workflows/ci-test.yml), [ex. #2](https://github.com/PMET-public/storystore-pwa/blob/master/.github/workflows/docker-publish.yml))
 
+# Tools For All Projects
+
+## Why Visual Studio Code (VSC) as the team's preferred IDE?
+* vast language support - supports all your and your teams projects with 1 tool
+* extensive plugin ecosystem
+* amazing Github integration
+* completely free
+* [becoming the de facto standard among devs](https://insights.stackoverflow.com/survey/2021#section-most-popular-technologies-integrated-development-environment)
+
+
 ## Recommended VSC extensions for any project
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 - [Git Tree Compare](https://marketplace.visualstudio.com/items?itemName=letmaik.git-tree-compare)
