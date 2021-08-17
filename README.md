@@ -44,11 +44,11 @@ How developers can quickly setup their dev environment, setup debugging, run tes
 - python: [sample](https://github.dev/marketolive/verticals/blob/master/.vscode/launch.json)
 - bash: [sample](https://github.dev/PMET-public/mdm/blob/develop/.vscode/launch.json)
 
-`Dockerfile` - a platform independent way to demo the minimum dependencies for your project ([python ex.](https://github.com/marketolive/verticals/blob/master/Dockerfile), [node ex.](https://github.com/PMET-public/storystore-pwa/blob/master/Dockerfile))
+`Dockerfile` - a platform independent way to demo the minimum dependencies for your project ([python ex.](https://github.dev/marketolive/verticals/blob/master/Dockerfile), [node ex.](https://github.dev/PMET-public/storystore-pwa/blob/master/Dockerfile))
 
-`docker-compose.yml` - the necessary services and conf to run the project typically with a single cmd ([python ex.](https://github.com/marketolive/verticals/blob/master/docker-compose.yml), [node x.](https://github.com/PMET-public/storystore-pwa/blob/master/docker-compose.test.yml))
+`docker-compose.yml` - the necessary services and conf to run the project typically with a single cmd ([python ex.](https://github.dev/marketolive/verticals/blob/master/docker-compose.yml), [node x.](https://github.dev/PMET-public/storystore-pwa/blob/master/docker-compose.test.yml))
 
-`.github/workflows/test-workflow.yml` - a Github CI/CD configuration to prove operability and ensure code quality ([ex. #1](https://github.com/PMET-public/action-tmate/blob/master/.github/workflows/ci-test.yml), [ex. #2](https://github.com/PMET-public/storystore-pwa/blob/master/.github/workflows/docker-publish.yml))
+`.github/workflows/test-workflow.yml` - a Github CI/CD configuration to prove operability and ensure code quality ([ex. #1](https://github.dev/PMET-public/action-tmate/blob/master/.github/workflows/ci-test.yml), [ex. #2](https://github.dev/PMET-public/storystore-pwa/blob/master/.github/workflows/docker-publish.yml))
 
 # Tools For All Projects
 
