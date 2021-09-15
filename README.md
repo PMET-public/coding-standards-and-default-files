@@ -69,6 +69,7 @@ How developers can quickly setup their dev environment, setup debugging, run tes
 - [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 - [Edit csv](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 # Node & JS projects
 
@@ -119,72 +120,16 @@ Install:
 
 `npm install --save-dev eslint`
 
-`.eslintrc.json`
-```json
-{
-  "env": {
-    "browser": true,
-    "es6": true,
-    "node": true
-  },
-  "parser": "babel-eslint",
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
-  ],
-  "parserOptions": {
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true,
-      "jsx": true
-    }
-  },
-  "plugins": [
-    "react"
-  ],
-  "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "indent": [
-      "error",
-      2,
-      {"SwitchCase": 1,
-      "MemberExpression": "off"}
-    ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    "quotes": [
-      "error",
-      "single"
-    ],
-    "no-unused-vars": [
-      "warn",
-      {
-        "args": "none",
-        "ignoreRestSiblings": true,
-        "varsIgnorePattern": "[Ii]gnoreMe"
-      }
-    ],
-    "no-var": "error",
-    "no-console": "off",
-    "prefer-destructuring": ["error", {
-      "array": true,
-      "object": true
-    }, {
-      "enforceForRenamedProperties": false
-    }]
-  }
-}
-```
+
+[sample .eslintrc.json](https://github.com/PMET-public/magento-cloud-extension/blob/master/.eslintrc.json)
 
 Run in the terminal:
-`eslint . --ext .js,.jsx`
+`eslint . --ext .js,.jsx` add the `--fix` option to automatically fix all rules
 
 Run via `scripts` attribute of `package.json`:
 ```json
   "scripts": {
-    "eslint": "./node_modules/prettier/bin-prettier.js --config .prettierrc.json --write ."
+    "eslint": "./node_modules/eslint/bin/eslint.js --fix your-dir"
   }
 ```
 
