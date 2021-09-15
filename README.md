@@ -71,6 +71,13 @@ How developers can quickly setup their dev environment, setup debugging, run tes
 - [Edit csv](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
+## CI/CD via GitHub Actions and Workflows
+
+TODO - add overview and details for:
+- tmate action plus GH user config
+- keep active project
+
+
 # Node & JS projects
 
 ## Recommended VSC extensions
