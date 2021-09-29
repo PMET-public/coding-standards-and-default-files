@@ -50,6 +50,7 @@ How developers can quickly setup their dev environment, setup debugging, run tes
 
 `.github/workflows/test-workflow.yml` - a Github CI/CD configuration to prove operability and ensure code quality ([ex. #1](https://github.dev/PMET-public/action-tmate/blob/master/.github/workflows/ci-test.yml), [ex. #2](https://github.dev/PMET-public/storystore-pwa/blob/master/.github/workflows/docker-publish.yml))
 
+
 # Tools For All Projects
 
 ## Why Visual Studio Code (VSC) as the team's preferred IDE?
@@ -70,6 +71,9 @@ How developers can quickly setup their dev environment, setup debugging, run tes
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 - [Edit csv](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
+## IDE Settings
+* Most modern IDEs have a "format on save" option. It should always be selected, so code is properly formatted (with an agreed upon formatter) before committing. This helps distinguish between meaningful and trivial changes in git.
 
 ## CI/CD via GitHub Actions and Workflows
 
